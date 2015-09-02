@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.0" width="177.1058" height="175.49483" id="svg1936" sodipodi:version="0.32" inkscape:version="0.46" sodipodi:docname="key.svg" sodipodi:docbase="/home/madblueimp" inkscape:export-filename="/home/madblueimp/key.png" inkscape:export-xdpi="16.261465" inkscape:export-ydpi="16.261465" inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <metadata id="metadata10">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="GNU Free Documentation license - http://www.gnu.org/licenses/fdl.html"/>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Sebastian Tschan</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:source>https://blueimp.net</dc:source>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview inkscape:window-height="924" inkscape:window-width="1272" inkscape:pageshadow="2" inkscape:pageopacity="0.0" borderopacity="1.0" bordercolor="#666666" pagecolor="#ffffff" id="base" inkscape:zoom="3.5043478" inkscape:cx="110" inkscape:cy="80.328784" inkscape:window-x="4" inkscape:window-y="71" inkscape:current-layer="normal_key" showgrid="false"/>
+  <defs id="defs1938">
+    <inkscape:perspective sodipodi:type="inkscape:persp3d" inkscape:vp_x="0 : 57.5 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_z="220 : 57.5 : 1" inkscape:persp3d-origin="110 : 38.333333 : 1" id="perspective10"/>
+  </defs>
+  <g id="normal_key" transform="matrix(-0.735543,0.677477,0.677477,0.735543,40.87889,-129.63625)">
+    <path id="keyShadow" style="font-size:12px;fill:#000000;fill-opacity:0.3;fill-rule:evenodd;stroke:none;stroke-width:5" d="M 129.9077,124.72979 C 129.9077,131.23116 121.39508,136.50732 110.90627,136.50732 C 100.41746,136.50732 91.904552,131.23116 91.904552,124.72979 C 91.904552,118.22842 100.41746,112.95197 110.90627,112.95197 C 121.39508,112.95197 129.9077,118.22842 129.9077,124.72979 z M 111.10975,102.12374 C 144.2983,102.53444 164.83073,116.10048 164.78417,140.21454 C 164.72928,168.41865 128.43647,174.46103 128.43647,174.46103 L 128.43647,206.6109 L 114.82904,217.7935 L 114.80778,224.43311 L 120.39549,229.77739 L 120.39549,239.62557 L 117.27543,243.32504 L 117.25416,252.04028 L 125.6409,258.67988 L 125.6409,268.11507 L 119.35077,273.35703 L 119.35077,281.39457 L 127.03883,288.38366 L 127.03883,297.81885 L 109.21662,314.24313 L 104.32414,314.34544 L 104.32414,311.01874 L 92.093377,300.23649 L 92.792056,174.46103 C 92.792056,174.46103 57.747736,166.996 57.501719,141.26299 C 57.240468,115.84585 80.3489,101.74695 111.10975,102.12374 z"/>
+    <path id="keyFace" style="font-size:12px;fill:#ffd64f;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5" transform="matrix(0.287404,0,0,0.287404,9.337894,54.76578)" d="M 429.469,230.034 C 429.469,252.655 399.85,271.013 363.355,271.013 C 326.86,271.013 297.24,252.655 297.24,230.034 C 297.24,207.413 326.86,189.054 363.355,189.054 C 399.85,189.054 429.469,207.413 429.469,230.034 z M 364.063,151.378 C 479.54,152.807 550.981,200.009 550.819,283.912 C 550.628,382.046 424.35,403.07 424.35,403.07 L 424.35,514.933 L 377.004,553.842 L 376.93,576.944 L 396.372,595.539 L 396.372,629.805 L 385.516,642.677 L 385.442,673.001 L 414.623,696.103 L 414.623,728.932 L 392.737,747.171 L 392.737,775.137 L 419.487,799.455 L 419.487,832.284 L 357.476,889.431 L 340.453,889.787 L 340.453,878.212 L 297.897,840.696 L 300.328,403.07 C 300.328,403.07 178.394,377.096 177.538,287.56 C 176.629,199.123 257.033,150.067 364.063,151.378 z"/>
+    <path id="keyGroove" style="font-size:12px;fill:#e6c848;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.5" transform="matrix(0.287404,0,0,0.287404,9.337894,54.76578)" d="M 340.406,876.60746 L 313.633,852.01946 L 315.272,502.887 C 315.272,459.175 328.932,445.514 339.86,444.422 L 340.406,876.60746 z"/>
+  </g>
+</svg>

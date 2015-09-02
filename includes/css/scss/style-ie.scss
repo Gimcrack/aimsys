@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+#menu_container {
+	top:-27px;
+	padding-bottom:0px;
+	margin-bottom:3px;
+	overflow:visible;
+	z-index:1;
+	background:none;
+}
+#content {
+	overflow:visible;
+	border-top:none;
+	z-index:2;
+	background:url(../images/content-bg.png) -1px -1px repeat-x;
+}
+.msg_success {
+	padding:4px 2px 2px 2px;
+	margin:6px;
+}
+.msg_error {
+	padding:4px 2px 2px 2px;
+	margin:6px;
+	margin-top:5px;
+	top:3px;
+}
+

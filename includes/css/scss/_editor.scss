@@ -1,0 +1,79 @@
+/**  **  **  **  **  **  **  **  **  ** 
+ *   EDITOR STUFF
+ **  **  **  **  **  **  **  **  **  **/
+#div-editor { 
+	background:#F0F0F0;
+	overflow:auto;
+	clear:both;
+	display:block;
+ 
+	.fieldset { 
+		border: 1px solid #999;
+		margin:3px;
+		padding:3px;
+		position:relative;
+		background:#DEECFC;
+		display:inline-block;
+	}
+	
+	legend	{ 
+		position:absolute;
+		top:-10px;
+		left:15px;
+		font-size:12px;
+		background:#F0F0F0;
+		padding:0 5px;
+		font-weight:bold;
+	}
+	
+	.div-editor-col	{
+		float:left; 
+	
+		&.legend {
+			float:none;
+		}
+		
+		&:nth-child(even) { 
+			background:#C7DEFA 
+		}
+		
+		&:nth-child(odd) { 
+			background:#DEECFC 
+		}
+		
+		&:last-child {
+			width:4px !important; 
+			visibility:hidden !important;
+		}
+		
+		.div-editor-cell { 
+			height:30px;
+			padding-left:3px;
+			padding-right:10px;
+			line-height:30px;
+			
+			
+			&.legend { 
+				border:1px solid #999;
+				font-size:18px;
+				background:#0071BC;
+				line-height:30px;
+				color:white;
+				padding:0 3px;
+
+			}
+				
+			&.label	{ 
+				padding-right:25px; 
+				font-size:11px; 
+			}
+
+		}
+			
+	}
+
+}
+
+.checkout_message							{ width:100%; height:35px; background:#F0F0F0}
+.checkout_message_msg						{ margin:3px; }
+.input-required-message						{ font-size:11px; margin-left:8px; font-weight:bold; font-style:italic; }

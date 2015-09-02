@@ -1,0 +1,30 @@
+-- --------------------------------------------------------------------------------
+-- Routine DDL
+-- Note: comments before and after the routine body will not be stored by the server
+-- --------------------------------------------------------------------------------
+DELIMITER $$
+
+CREATE PROCEDURE `sp_checkinall`()
+BEGIN
+
+DECLARE done INT DEFAULT 0;
+DECLARE tablename varchar(40);
+DECLARE cur1 CURSOR FOR select distinct table_name 
+						from information_schema.columns
+						where column_name = 'checked_out' and table_schema = 'aimsysdb'
+						order by table_name;
+DECLARE CONTINUE handler FOR NOT FOUND SET done = 1;
+
+OPEN cur1;
+
+REPEAT
+FETCH cur1 INTO tablename;
+IF NOT done THEN
+	SET @statement = CONCAT('UPDATE ',tablename,' SET checked_out=0, checked_out_id=0, checked_out_time=NULL WHERE 1');
+	PREPARE stmt FROM @statement;
+	EXECUTE stmt;
+END IF;
+UNTIL DONE END REPEAT;
+
+CLOSE cur1;
+END

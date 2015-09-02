@@ -1,0 +1,64 @@
+/* QV Table Stuff */
+
+a.table_heading.active							{ font-weight:bold; color:#0071BC; }
+#row_message									{ padding:5px 5px 5px 20px; font-weight:bold; font-style:italic }
+	
+.qv-table { 
+	padding-top: 25px; border-top:2px solid #0071BC; 
+	
+	.qv-col	{ 
+		float:left; overflow:hidden; border-right:1px solid #ccc; border-left:1px solid #fff;
+		
+		&:first-child {
+			
+			.qv-cell {
+				padding-left:15px !important; font-weight:bold; border-left:1px solid #aaa;
+				
+				&:first-child {
+					color:$param_table_input_color; 
+				}
+			}
+		}
+		
+		&:last-child {
+			float:none; overflow:hidden;
+		}
+	
+		.qv-cell { 
+			height:21px;line-height:21px; font-size:11px; padding:0 7px 0 7px; cursor:pointer; width:100%; 
+			
+			&:first-child { 
+				height:24px; line-height:24px; background: $qv_first_cell_bg !important; font-weight:bold; width:100%; padding-top:6px;   
+			}
+			
+			&:nth-child(even)	{ 
+				background:$qv_even_bg; 
+			}
+			
+			&:nth-child(odd) { 
+				background:$qv_odd_bg; 
+			}
+			
+			&.search {
+				background:$qv_first_cell_bg; font-weight:bold; border-bottom:1px solid #aaa; padding-top:2px; padding-bottom:6px;	
+			}
+			
+			&:last-child {
+				border-bottom:1px solid $qv_last_cell_border;	
+			}
+			
+			&.highlight	{ 
+				color:$qv_highlight_color; background:$qv_highlight_bg;  
+			}
+			
+			&.search input {
+				width:auto; margin-top:1px;
+			}
+			
+			#chk_sel_all							{ line-height:14px; margin-top:7px; }
+			
+			
+		}
+	}
+}
+

@@ -1,0 +1,37 @@
+/* Param Table Stuff */
+	
+.param-table	{ 
+	margin:57px 0 0px; border-top:2px solid $param_table_border; padding-top:25px; 
+	
+	.param-col	{ 
+		float:left; overflow:hidden; border-right:1px solid #ccc; border-left:1px solid #fff; 
+		
+		&:first-child {
+			.param-cell				{ 
+				padding-left:15px !important; font-weight:bold; border-left:1px solid #aaa;
+				
+				&:first-child	{ 
+					font-weight:bold; font-size:14px; padding-left:0 !important; text-align:center !important; 
+				}
+			}
+		}
+		
+		&:last-child {
+			float:none; overflow:hidden;
+		}
+		
+		.param-cell	{ 
+			height:25px; width:100%; line-height:25px; font-size:10px; padding:0 7px 0 7px;  
+			
+			&:nth-child(even)						{ background:#C7DEFA }
+			&:nth-child(odd)						{ background:#DEECFC }
+			&:first-child							{ height:24px; line-height:24px; background: #F0F0F0; width:100%; font-weight:bold; text-align:center; }
+			&:last-child							{ border-bottom:1px solid #aaa;}
+			select, input							{ color: $param_table_input_color; }
+			select									{ width: 105px; }
+			.highlight								{ text-decoration:underline; color:#0071BC; background:#F8FAC7;  }
+		}
+
+
+	}
+}

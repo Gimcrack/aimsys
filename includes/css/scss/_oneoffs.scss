@@ -1,0 +1,24 @@
+/*
+	ONE-OFFS
+*/
+.shadow { 
+	-moz-box-shadow: 0px 4px 8px $shadow_color; 
+	-webkit-box-shadow: 0px 4px 8px $shadow_color; 
+	box-shadow: 0px 4px 8px $shadow_color; 
+ 	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='$shadow_color')"; 
+ 	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='$shadow_color'); 
+}
+
+::-moz-focus-inner							{ border:0 }; /* firefox outline fix */
+
+#mask-all									{ position:fixed; top:0;width:0; height:100%;width:100%; z-index:1000000000000 }
+.toolbar-separator							{ background:url(../../images/icon-toolbar-separator.png) repeat-y center; display:inline-block; height:16px; width:2px; margin:0 2px -4px; }
+
+
+#su-login									{ position:fixed; top:5px; left:20px; z-index:1000000; }
+#clear, .clear 								{ clear: both }
+#mask										{ position:absolute; top:0; left:0; height:100%; width:100%; z-index:10000000000000000000000; }
+fieldset 									{ border: none; min-width:inherit; overflow:auto; width:auto; margin:0; padding:0;}
+pre											{ background:$pre_bg_color; z-index:10000000000000; font-size:14px; margin:10px;}
+.dropdown 									{ display: none }
+#add_tab 									{ cursor: pointer; }

@@ -1,0 +1,62 @@
+/* AIMSys Color Scheme */
+
+$darkPercentDelta : 25;
+$brightPercentDelta : 25;
+$lightPercentDelta : 50;
+$lighterPercentDelta : 60;
+
+
+$hueAdjust2 : 160; // reds
+$hueAdjust3 : 180; // oranges
+$hueAdjust4 : 210; // yellows
+$hueAdjust1 : 240; // greens
+$hueAdjust5 : 60; // ?
+
+/* blues */
+$strongBlue 	: #0071bc; 	// base color
+$darkBlue		: darken($strongBlue, $darkPercentDelta);
+$brightBlue 	: lighten($strongBlue, $brightPercentDelta);
+$lightBlue  	: lighten($strongBlue, $lightPercentDelta);
+$lighterBlue	: lighten($strongBlue, $lighterPercentDelta);
+
+/* greens */
+$strongGreen 	: adjust-hue($strongBlue,$hueAdjust1);
+$darkGreen	 	: adjust-hue($darkBlue,  $hueAdjust1);
+$brightGreen 	: adjust-hue($brightBlue,$hueAdjust1);
+$lightGreen  	: adjust-hue($lightBlue, $hueAdjust1);
+$lighterGreen  	: adjust-hue($lighterBlue, $hueAdjust1);
+
+/* reds */
+$strongRed 		: adjust-hue($strongBlue,$hueAdjust2);
+$darkRed   		: adjust-hue($darkBlue,  $hueAdjust2);
+$brightRed 		: adjust-hue($brightBlue,$hueAdjust2);
+$lightRed  		: adjust-hue($lightBlue, $hueAdjust2);
+$lighterRed  	: adjust-hue($lighterBlue, $hueAdjust2);
+
+/* oranges */
+$strongOrange 	: adjust-hue($strongBlue,$hueAdjust3);
+$darkOrange   	: adjust-hue($darkBlue,  $hueAdjust3);
+$brightOrange 	: adjust-hue($brightBlue,$hueAdjust3);
+$lightOrange  	: adjust-hue($lightBlue, $hueAdjust3);
+$lighterOrange  : adjust-hue($lighterBlue, $hueAdjust3);
+
+/* yellows */
+$strongYellow 	: adjust-hue($strongBlue,$hueAdjust4);
+$darkYellow   	: adjust-hue($darkBlue,  $hueAdjust4);
+$brightYellow 	: adjust-hue($brightBlue,$hueAdjust4);
+$lightYellow  	: adjust-hue($lightBlue, $hueAdjust4);
+$lighterYellow  : adjust-hue($lighterBlue, $hueAdjust4);
+
+/* violets */
+$strongViolet 	: adjust-hue($strongBlue,$hueAdjust5);
+$darkViolet   	: adjust-hue($darkBlue,  $hueAdjust5);
+$brightViolet 	: adjust-hue($brightBlue,$hueAdjust5);
+$lightViolet  	: adjust-hue($lightBlue, $hueAdjust5);
+$lighterViolet  : adjust-hue($lighterBlue, $hueAdjust5);
+
+/* grays */
+$strongGray 	: adjust-hue(grayscale($strongBlue),30);
+$darkGray   	: grayscale($darkBlue);
+$brightGray 	: grayscale($brightBlue);
+$lightGray  	: grayscale($lightBlue);
+$lighterGray  	: grayscale($lighterBlue);
